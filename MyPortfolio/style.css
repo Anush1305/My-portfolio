@@ -5,6 +5,15 @@
     font-family: 'Segoe UI', Arial, sans-serif;
     scroll-behavior: smooth;
 }
+.container {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
 
 body {
     background: linear-gradient(135deg, #c3d7dc, #d9e4f5);
